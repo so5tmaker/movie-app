@@ -29,7 +29,7 @@ This is a simple application for searching and displaying information about movi
 
 In the project directory, you can run:
 
-### `npm install`
+`npm install`
 
 
 3.	Create a .env file in the root of the project and add your API keys:
@@ -41,7 +41,7 @@ REACT_APP_TMDB_BEARER_TOKEN=your_tmdb_bearer_token
 
 4.	Run the application:
 
-### `npm start`
+`npm start`
 
 
 ## Usage
