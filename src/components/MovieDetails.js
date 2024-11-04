@@ -11,6 +11,7 @@ import { favoritesStore } from "../stores/FavoritesStore.js";
 import NoTrailer from './NoTrailer';
 import Frame from './Frame';
 import MovieRating from "./MovieRating.js";
+import TestTask from './Test';
 
 const MovieDetails = observer(() => {
     const { id } = useParams();
@@ -47,6 +48,7 @@ const MovieDetails = observer(() => {
 
     return (
         <Container >
+            <TestTask />
             {movie.trailer ? (
                 <Frame movie={movie} />
             ) : (
