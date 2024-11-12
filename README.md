@@ -1,6 +1,6 @@
 # Movie App
 
-This is a simple application for searching and displaying information about movies using the OMDB and TMDB APIs. Users can search for movies, view their details, add them to favorites, and watch trailers.
+A simple and elegant React application powered by MobX for searching and displaying movie information. This app integrates with the OMDB and TMDB APIs to fetch detailed data. Users can search for movies, view their details, add them to favorites, and watch trailers.
 
 ## Features
 
